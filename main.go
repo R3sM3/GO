@@ -11,5 +11,5 @@
 		http.ListenAndServe(":8080", nil)
     }
     func Inicio (w http.ResponseWriter,r *http.Request ) {
-        fmt.Fprintf(w, "Hola Raul")
+        fmt.Fprintf(w, "Hola, como estas?")
     }
